@@ -7,6 +7,9 @@ import "izitoast/dist/css/iziToast.min.css";
 const gallery = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
 
+document.addEventListener('DOMContentLoaded', () => {
+  loader.classList.add('hidden');
+});
 
 export const showLoader = () => {
   loader.classList.remove('hidden');
