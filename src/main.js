@@ -1,3 +1,7 @@
+import iziToast from 'izitoast';
+import "izitoast/dist/css/iziToast.min.css";
+
+
 import { fetchImages } from './js/pixabay-api.js';
 import { showLoader, hideLoader, clearGallery, renderImages, showNoImagesFoundMessage } from './js/render-functions.js';
 
